@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 import { TodoStatusEnum } from './todo-status.enum';
-import { DatableEntity } from 'src/common/datable.entity';
+import { DatableEntity } from '../common/datable.entity';
 
 @Entity({ name: 'todos' })
 export class TodoEntity extends DatableEntity {

@@ -3,7 +3,7 @@ import { Todo } from './todo.model';
 import { AddTodoDTO } from './add-todo.dto';
 import { TodoStatusEnum } from './todo-status.enum';
 import { UpdateTodoDTO } from './update-todo.dto';
-import { CommonService } from 'src/common/common.service';
+import { CommonService } from '../common/common.service';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Like, Repository } from 'typeorm';
 import { TodoEntity } from './todo.entity';
